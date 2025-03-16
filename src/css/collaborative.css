@@ -1,0 +1,41 @@
+.collaborative-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+.collaborative-text-container {
+  padding-right: 84px;
+}
+.coll-title-text {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.coll-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+.coll-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  margin-bottom: 27px;
+  max-width: 486px;
+}
+.coll-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.coll-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  max-width: 486px;
+}
+
+.coll-item:not(:last-child) {
+  margin-bottom: 25px;
+}
